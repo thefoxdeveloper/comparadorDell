@@ -21,20 +21,20 @@
     </style>
   </head>
   <body class="container mt-5">
-    <h1 class="mb-4">Quote Comparison</h1>
-    <p>Copie e cole o descritivo nos campos abaixo 1 quote por vez.</p>
-    <p>
-      Descritivos do Dellstar estão funcionando, outros ainda não consegui
-      testar.
+    <h1 class="mb-4 text-center">Quote Comparison</h1>
+    <p></p>
+    <p class="mb-0 bg-primary lead text-center text-warning">
+      Copie e cole o descritivo nos campos abaixo 1 quote por vez.
     </p>
-    <h5>
-      made by
-      <a href="https://github.com/thefoxdeveloper">Douglas Santos</a>
-    </h5>
+    <p class="mb-0 bg-warning lead text-center">
+      A utilização deste site não substitui a verificação manual. Não nos
+      responsabilizamos por dados incorretos.
+    </p>
+
     <div class="row">
-      <div class="col-md-6">
-        <label for="quote1">Old Quote:</label>
-        <!-- Set the rows attribute for a larger starting height -->
+      <div class="col-md-6 mt-2">
+        <label for="quote1"><strong>Old Quote:</strong></label>
+
         <textarea
           class="form-control"
           id="quote1"
@@ -43,9 +43,9 @@
         ></textarea>
       </div>
 
-      <div class="col-md-6">
-        <label for="quote2">New Quote:</label>
-        <!-- Set the rows attribute for a larger starting height -->
+      <div class="col-md-6 mt-2">
+        <label for="quote2"><strong>New Quote:</strong></label>
+
         <textarea
           class="form-control"
           id="quote2"
@@ -67,7 +67,10 @@
     </div>
 
     <div class="mt-3" id="result"></div>
-
+    <h5>
+      made by
+      <a href="https://github.com/thefoxdeveloper">Douglas Santos</a>
+    </h5>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
